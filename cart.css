@@ -10,6 +10,7 @@ body{
     color: white;
     font-size: 15px;
     padding: 10px 0px;
+    font-family: Space Grotesk;
 }
 .top-bar span a{
     text-decoration: underline;
@@ -26,8 +27,13 @@ body{
     background-color: black;
     color: white;
 }
+nav{
+    font-family: Space Grotesk;
+}
 .navbar{
     background-color: #F3F3F3;
+    font-family: Poppins;
+    font-weight: 100;
 }
 .navbar-items{
     display: flex;
@@ -107,6 +113,12 @@ body{
     outline: none;
 }
 .flexing-1{
+    font-family: Space Grotesk;
+}
+.flexing-2 , .flexing-3{
+    font-family: Poppins;
+}
+.flexing-1{
     padding-left: 30px;
 }
 .price{
@@ -120,12 +132,14 @@ body{
 }
 .flexing-2 , .flexing-3{
     padding: 10px 0px;
+    font-size: 15px;
 }
 .return button a , .update-card button a{
     text-decoration: none;
     color: black;
     font-size: 13px;
-    font-weight: 700;
+    font-weight: 500;
+    font-family: Space Grotesk;
 }
 .return button , .update-card button{
     background-color: white;
@@ -157,12 +171,13 @@ body{
 .main-box{
     border: 1px solid black;
     background-color: rgb(167, 242, 239);
+    font-family: Poppins;
 }
 .checkout-btn button a{
     text-decoration: none;
     color: white;
     font-size: 14px;
-    font-weight: 600;
+    font-family: Space Grotesk;
 }
 .checkout-btn button{
     background-color: #DB4444;
@@ -186,6 +201,8 @@ body{
     padding-bottom: 18px;
     font-size: 24px;
     font-weight: 700;
+    font-family: Space Grotesk;
+    margin-left: 12px;
 }
 nav ol li a{
     color: black;
@@ -196,12 +213,17 @@ nav ol li a:hover{
     color: mediumturquoise;
     font-weight: 600;
 }
+.PRICE{
+    font-family: Space Grotesk;
+    font-weight: 400;
+}
 
 
 /* footer */
 
 footer{
     padding-top: 60px;
+    font-family: Space Grotesk;
 }
 .main-footer{
     background-color: black;

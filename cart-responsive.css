@@ -2,6 +2,9 @@
     .top-bar{
         display: none;
     }
+    .navbar{
+        font-family: Space Grotesk;
+    }
     .nav-search{
         display: none;
     }
