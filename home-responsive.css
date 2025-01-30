@@ -1,0 +1,257 @@
+
+@media only screen and (min-width: 300px) and (max-width: 991px){
+    .top-bar{
+        display: none;
+    }
+    .nav-search{
+        display: none;
+    }
+    .create-account{
+        padding-bottom: 100px;
+    }
+    .navbar button span{
+        display: none;
+    }
+    .navbar-toggler:focus{
+        border: none;
+    }
+    .navbar-collapse ul{
+        background-color: bisque;
+        text-align: center;
+        padding-right: 30%;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1100px){
+    .speakers img{
+        width: 100%;
+    }
+    .perfume img{
+        width: 100%;
+        padding-left: 20px;
+    }
+    .sec-3{
+        padding-left: 0px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .main-page{
+        padding-top: 20px;
+    }
+    .items p{
+        display: none;
+    }
+    .mobile-image{
+        width: 100%;
+    }
+    .setting{
+        width: 100%;
+    }
+    .gaming{
+        width: 154%;
+    }
+    .women-collection img{
+        padding-top: 20px;
+    }
+    .speakers img{
+        width: 128%;
+        height: 51vh;
+    }
+    .perfume img{
+        width: 118%;
+        height: 51vh;
+        padding-left: 105px;
+    }
+    .rounds{
+        padding-top: 100px;
+    }
+    .round-2 , .round-3{
+        padding-top: 20px;
+    }
+    .footer-2 , .footer-3{
+        padding: 40px;
+    }
+    .main-footer{
+        text-align: center;
+    }
+    .round-1 img , .round-2 img , .round-3 img{
+        width: 13%;
+    }
+    .icons{
+        margin-left: 60px;
+    }
+    .radio-image img{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px){
+    .items p{
+        display: none;
+    }
+    .card-image img{
+        width: 100%;
+    }
+    .card-text{
+        text-align: center;
+    }
+    .stars-text{
+        display: flex;
+        justify-content: center;
+    }
+    .sec-card{
+        text-align: center;
+    }
+    .women-collection img{
+        padding-top: 20px;
+    }
+    .speakers img{
+        width: 110%;
+        height: 51vh;
+    }
+    .perfume img{
+        width: 110%;
+        height: 51vh;
+        padding-right: 30px;
+    }
+    .round-1 img , .round-2 img , .round-3 img{
+        width: 12%;
+    }
+    .round-2 , .round-3{
+        padding-top: 20px;
+    }
+    .main-footer{
+        text-align: center;
+    }
+    .footer-1 ,  .footer-2 , .footer-3 , .footer-4 , .footer-5{
+        padding-top: 50px;
+    }
+    .icons{
+        margin-left: 120px;
+    }.sec-3{
+        padding-left: 0px;
+        padding-right: 20px;
+    }
+    
+}
+@media only screen and (max-width: 575px){
+    .items p{
+        display: none;
+    }
+    .card-image img{
+        width: 100%;
+    }
+    .card-text{
+        text-align: center;
+    }
+    .stars-text{
+        display: flex;
+        justify-content: center;
+    }
+    .sec-card{
+        text-align: center;
+    }
+    .women-collection img{
+        padding-top: 20px;
+    }
+    .speakers img{
+        width: 110%;
+        height: 51vh;
+    }
+    .perfume img{
+        width: 110%;
+        height: 51vh;
+        padding-right: 30px;
+    }
+    .round-1 img , .round-2 img , .round-3 img{
+        width: 12%;
+    }
+    .round-2 , .round-3{
+        padding-top: 20px;
+    }
+    .main-footer{
+        text-align: center;
+    }
+    .footer-1 ,  .footer-2 , .footer-3 , .footer-4 , .footer-5{
+        padding-top: 50px;
+    }
+    .icons{
+        margin-left: 120px;
+    }.sec-3{
+        padding-left: 0px;
+        padding-right: 20px;
+    }
+    .sec-2{
+        padding-left: 23px;
+    }
+    .large-heading h2{
+        font-size: 22px;
+        letter-spacing: 2px;
+    }
+    .sec-5{
+        padding-right: 20px;
+    }
+    .round-time{
+        margin-right: 0px;
+        width: 40px;
+        height: 40px;
+        font-size: 10px;
+        padding-top: 4px;
+    }
+    .green-btn button{
+        padding: 7px 25px;
+    }
+    .sec-6{
+        padding-left: 30px;
+    }
+    .left-black img{
+        height: 50vh;
+    }
+    .women-collection img{
+        height: 28vh;
+    }
+    .speakers img{
+        height: 30vh;
+        width: 120%;
+    }
+    .perfume img{
+        height: 30vh;
+        width: 117%;
+    }
+    .text span{
+        line-height: 15px;
+    }
+    .red-btn-2{
+        padding: 2px 10px;
+        width: 110%;
+    }
+    .timer-text .text {
+        padding-left: 0px;
+    }
+    .timer-text .text span{
+        font-size: 18px;
+    }
+    .sec-4-head-text{
+        padding-bottom: 30px;
+    }
+    .icons{
+        margin-left: 60px;
+    }
+    .red-btn-2{
+        display: none;
+    }
+    .left-text{
+        padding: 20px 0px;
+    }
+    .large-heading h2{
+        padding-top: 30px;
+    }
+    .green-btn button:hover{
+        background-color: #00c850;
+    }
+    .bottom-text{
+        font-size: 11px;
+    }
+    .browse-head{
+        font-size: 22px;
+    }
+}
