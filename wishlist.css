@@ -8,6 +8,7 @@ body{
     justify-content: space-around;
     background-color: black;
     color: white;
+    font-family: Space Grotesk;
     font-size: 15px;
     padding: 10px 0px;
 }
@@ -28,6 +29,7 @@ body{
 }
 .navbar{
     background-color: #F3F3F3;
+    font-family: Space Grotesk;
 }
 .navbar-items{
     display: flex;
@@ -55,7 +57,7 @@ body{
     color: black;
 }
 .navbar-collapse ul{
-    font-weight: 600;
+    font-weight: 300;
     padding-left: 36%;
 }
 .nav-search{
@@ -81,7 +83,9 @@ body{
 /* main */
 
 /* sec-1 */
-
+main{
+    font-family: Space Grotesk;
+}
 .sec-1{
     padding-top: 50px;
 }
@@ -107,7 +111,7 @@ body{
    border: 1px solid rgb(84, 84, 84);
    padding: 5px 20px;
    font-size: 13px;
-   font-weight: 600;
+   font-weight: 300;
 }
 .red-btn-2:hover{
     background-color: rgb(29, 29, 29);
@@ -160,7 +164,7 @@ body{
 }
 .text-2 span{
     padding-left: 8px;
-    font-weight: 600;
+    font-weight: 300;
     font-size: 17px;
 }
 .stars-text i{
@@ -168,12 +172,12 @@ body{
 }
 .card-price span{
     color: red;
-    font-weight: 600;
+    font-weight: 300;
     padding-right: 6px;
 }
 .card-price s{
     color: gray;
-    font-weight: 500;
+    font-weight: 300;
 }
 .stars-text p{
     color: gray;
@@ -240,7 +244,7 @@ body{
     margin-top: 15px;
 }
 .card-name{
-    font-weight: 700;
+    font-weight: 300;
 }
 .cart-text button{
     border: none;
