@@ -1,0 +1,125 @@
+@media only screen and (max-width: 1200px){
+    .top-bar{
+        display: none;
+    }
+    .nav-search{
+        display: none;
+    }
+    .nav-search{
+        display: none;
+    }
+    .top-bar{
+        display: none;
+    }
+    .nav-search{
+        display: none;
+    }
+    .create-account{
+        padding-bottom: 100px;
+    }
+    .navbar button span{
+        display: none;
+    }
+    .navbar-toggler:focus{
+        border: none;
+    }
+    .navbar-collapse ul{
+        background-color: bisque;
+        text-align: center;
+        padding-right: 30%;
+    }
+    .footer-text-2 , .footer-text-3 ,.footer-text-4 , .footer-text-5{
+        margin-top: 30px;
+    }
+    .main-footer{
+        text-align: center;
+        padding-top: 30px;
+    }
+    .bottom-navbar{
+        font-size: 12px;
+    }
+    .text span{
+        font-size: 15px;
+        padding-right: 40px;
+    }
+    .red-btn-2{
+        font-size: 12px;
+        padding: 5px 20px;
+    }
+    .round-2 , .round-3{
+        padding-top: 30px;
+    }
+    .icons{
+        margin-left: 50px;
+    }
+}
+
+/* footer */
+
+footer{
+    padding-top: 60px;
+}
+.main-footer{
+    background-color: black;
+    color: white;
+    padding: 4% 3% 2% 4%;
+    font-weight: 500;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+}
+.footer-flex div{
+    margin-bottom: 10px;
+}
+.footer-email input{
+    background-color: black;
+    border: 1px solid white;
+    padding: 8px 5px;
+    border-radius: 3px;
+    text-align: center;
+}
+.footer-email input:focus{
+    outline: none;
+    background-color: black;
+    color: white;
+}
+.footer-email input:visited{
+    background-color: black;
+    color: white;
+}
+.footer-send button{
+    background-color: rgb(0, 154, 220);
+    border: none;
+    outline: none;
+    padding: 8px 71px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 3px;
+}
+.footer-send button a{
+    text-decoration: none;
+    color: white;
+}
+.footer-send button:hover{
+    background-color: rgb(0, 114, 162);
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.bottom-navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 12px 0px 15px 0px;
+}
+.bottom-text{
+    padding-left: 5px;
+}
+.bottomLine{
+    border: 1px solid rgb(55, 55, 55);  
+}
