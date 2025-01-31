@@ -140,7 +140,7 @@ main{
     padding: 5px 22px;
 }
 .return button:hover , .update-card button:hover{
-    background-color: rgb(136, 224, 221);
+    background-color: lightgray;
 }
 .flexing-4{
     display: flex;
