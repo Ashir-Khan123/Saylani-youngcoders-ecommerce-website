@@ -2,9 +2,6 @@
     .top-bar{
         display: none;
     }
-    .navbar{
-        font-family: Space Grotesk;
-    }
     .nav-search{
         display: none;
     }
@@ -49,9 +46,6 @@
         font-size: 12px;
         padding: 5px 20px;
     }
-    .icons{
-        margin-left: 50px;
-    }
 }
 @media only screen and (max-width: 576px){
     .flexing-1 , .flexing-2 , .flexing-3{
@@ -80,13 +74,10 @@
     .return button a, .update-card button a{
         font-size: 11px;
     }
-    .checkout-btn button{
-        padding: 5px 15px;
+    .pad{
+        padding: 18px 13px;
     }
     .icons{
         margin-left: 50px;
-    }
-    footer{
-        font-family: Space Grotesk;
     }
 }
