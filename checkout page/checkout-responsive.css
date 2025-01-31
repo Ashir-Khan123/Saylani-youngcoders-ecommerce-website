@@ -1,0 +1,66 @@
+@media only screen and (max-width : 1200px){
+    .socail_icon{
+        display: none;
+    }
+    .form_input input{
+        display: none;
+    }
+    .heading{
+        display: none;
+    }
+    .center_box{
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .bank_card1{
+        margin-top: 20px;
+    }
+    footer{
+        margin-top: 60px;
+    }
+    .total_box_text .span2{
+        margin-left: 100px;
+    }
+    .Subtotal .span2 {
+        margin-left: 200px;
+    }
+    .shipping .span2{
+        margin-left: 204px;
+        
+    }
+    .total_amount .span2{
+        margin-left: 223px;
+
+    }
+    .top-bar{
+        display: none;
+    }
+    hr{
+        width: 320px;
+    }
+    .footer-text-2 , .footer-text-3 ,.footer-text-4 , .footer-text-5{
+        margin-top: 30px;
+    }
+    .main-footer{
+        text-align: center;
+        padding-top: 30px;
+    }
+    .bottom-navbar{
+        font-size: 12px;
+    }
+    .text span{
+        font-size: 15px;
+        padding-right: 40px;
+    }
+    .red-btn-2{
+        font-size: 12px;
+        padding: 5px 20px;
+    }
+    .round-2 , .round-3{
+        padding-top: 30px;
+    }
+    .icons{
+        margin-left: 50px;
+    }
+    
+}

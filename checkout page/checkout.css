@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding: 10px 0px;
+}
+
+.top-bar span a {
+    text-decoration: underline;
+    color: gold;
+    padding-left: 5px;
+}
+
+.top-bar .top-text {
+    padding-left: 18%;
+}
+
+#lang {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    background-color: #F3F3F3;
+
+}
+
+.navbar-brand h1 {
+    font-family: inter;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #000000;
+}
+
+.navbar-nav .nav-link {
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    color: #000000;
+}
+.navbar{
+    border-bottom: 1px black !important;
+}
+.form_input input {
+    width: 243px !important;
+    height: 38px !important;
+    padding: 7px 20px 7px 12px !important;
+}
+
+.form_input placeholder {
+    font-family: poppines;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.socail_icon i {
+    margin-left: 16px;
+    width: 20px;
+    height: 18px;
+    margin-top: 7px 6px 0px 0px;
+    border: 1.5px;
+    border-color: #000000;
+    /* display: flex; */
+
+
+
+
+}
+
+.socail_icon {
+    display: flex;
+}
+
+.number {
+    position: relative;
+    bottom: 10px;
+    left: -16px;
+    height: 17px;
+    width: 16px;
+    border-radius: 8px;
+    background-color: #DB4444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FAFAFA;
+
+}
+
+.number_2 {
+    position: relative;
+    bottom: 10px;
+    left: -10px;
+    height: 17px;
+    width: 16px;
+    border-radius: 8px;
+    background-color:#DB4444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FAFAFA;
+
+
+}
+
+/* heading deisgn css */
+.heading .heading_text {
+    display: flex;
+    gap: 12px;
+    list-style: none;
+    margin-top: 75px;
+    font-family: poppins;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 21px;
+   
+
+}
+.heading .heading_text  .link_text{
+    color: #000000;
+    opacity: 50%;
+    text-decoration: none;
+
+
+}
+.heading .heading_text li{
+    color: #000000;
+    opacity: 50%;
+
+}
+.checkout {
+    color: #000000;
+    text-decoration: none;
+}
+.checkout:hover{
+    color: #000000;
+}
+/* billing details deisdn css */
+.billing_details_text{
+    margin-top: 50px;
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 4%;
+    color: #000000;
+}
+.needs-validation{
+    margin-top: 20px !important;
+}
+.form-label{
+    font-family: poppins;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 40%;
+    margin-top: 10px;
+
+
+}
+.form-label span{
+    color: #DB4444;
+    font-family: poppins;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+
+}
+.form-control {
+    background-color:#F5F5F5 !important;
+    border-radius: 4px !important;
+    width: 470px;
+    height: 50px;
+    border: none;
+    box-shadow: none !important;
+    border: #000000 !important;
+}
+.fa-square-check{
+    font-size: 22px;
+    color: #DB4444;
+
+}
+.social_icon{
+    margin: 30px 0px 70px 10px;
+}
+.text_contant{
+    font-family: poppins;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    margin-left: 10px;
+}
+.total_box{
+    display: flex;
+    align-items: center;
+    
+ 
+}
+.total_box_text .span1{
+    font-family: poppins;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    
+
+}
+
+.total_box_text .span2{
+    margin-left: 210px;
+    font-family: poppins;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+
+}
+.total_box_text {
+    margin-left: 24px;
+}
+
+.total_box2{
+    margin-top: 32px;
+}
+.Subtotal{
+    margin-top: 12px;
+}
+
+
+.Subtotal .span1{
+    font-family: poppins;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+.Subtotal .span2{
+    margin-left: 312px;
+    font-family: poppins;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+
+}
+.main_Subtotal{
+    margin-top: 32px;
+}
+.shipping .span2{
+    margin-left: 320px;
+    margin-top: 0px;
+
+}
+.total_amount .span2{
+    margin-left: 340px;
+}
+.span_img{
+    margin-left: 132px;
+}
+.bank_text{
+    font-family: poppins;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    margin-left: 19px;
+
+
+}
+.coupon_box input{
+    width: 270px;
+    height: 56px;
+    border-radius: 4px;
+    border: 1px solid black !important;
+    background-color:white !important;
+    border-color: #000000 ;   
+}
+.coupon_box{
+    margin-top: 20px;
+}
+.coupon_input .form-control{
+    font-family: poppins;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    color: #DB4444;;
+}   
+.button{
+    width: 211px;
+    height: 56px;
+    background-color: #DB4444;
+    color: #FAFAFA;
+    border: none;
+    font-family: poppins;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 4px;
+
+}
+.button2{
+    width: 190px;
+    height: 56px;
+    background-color: #DB4444;
+    color: #FAFAFA;
+    border: none;
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 35px;
+    border-radius: 4px;
+
+
+}
+.center_box{
+    margin-left: 50px;
+    margin-top: 70px    ;
+}
+/* footer deisgn css */
+
+footer{
+    padding-top: 60px;
+}
+.main-footer{
+    background-color: black;
+    color: white;
+    padding: 4% 3% 2% 4%;
+    font-weight: 300;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+}
+.footer-flex div{
+    margin-bottom: 10px;
+}
+.footer-email input{
+    background-color: black;
+    border: 1px solid white;
+    padding: 8px 5px;
+    border-radius: 3px;
+    text-align: center;
+}
+.footer-email input:focus{
+    outline: none;
+    background-color: black;
+    color: white;
+}
+.footer-email input:visited{
+    background-color: black;
+    color: white;
+}
+.footer-send button{
+    background-color: rgb(0, 154, 220);
+    border: none;
+    outline: none;
+    padding: 8px 71px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 3px;
+}
+.footer-send button a{
+    text-decoration: none;
+    color: white;
+}
+.footer-send button:hover{
+    background-color: rgb(0, 114, 162);
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.bottom-navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 12px 0px 15px 0px;
+}
+.bottom-text{
+    padding-left: 5px;
+}
+.bottomLine{
+    border: 1px solid rgb(55, 55, 55);  
+}
