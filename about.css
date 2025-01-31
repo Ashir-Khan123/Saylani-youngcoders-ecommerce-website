@@ -3,6 +3,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Space Grotesk;
 }
 .top-bar{
     display: flex;
@@ -56,7 +57,7 @@ body{
     color: black;
 }
 .navbar-collapse ul{
-    font-weight: 600;
+    font-weight: 200;
     padding-left: 36%;
 }
 .nav-search{
@@ -92,7 +93,7 @@ body{
 
   .text-container {
     flex: 1;
-    padding: 1rem;
+    padding-right: 10px;
     min-width: 300px;
   }
 
@@ -105,7 +106,9 @@ body{
     margin-bottom: 1rem;
     color: #555;
   }
-
+  .text-container p , .text-container h1 {
+    font-family: Space Grotesk;
+  }
   .image-container {
     flex: 1;
     padding: 1rem;
@@ -403,7 +406,28 @@ body{
   outline: none;
   border: none;
 }
-
+.sec-8{
+    margin:20px 0px;
+}
+.round-1 img , .round-2 img , .round-3 img{
+    width: 20%;
+}
+.round-1 , .round-2 , .round-3{
+    text-align: center;
+}
+.rounds{
+    padding: 50px 0px 0px 0px;
+}
+.round-1 h3, .round-2 h3, .round-3 h3{
+    font-size: 22px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+.round-1 p, .round-2 p, .round-3 p{
+    font-size: 13px;
+    font-weight: 500;
+}
+ 
 @media only screen and (min-width: 300px) and (max-width: 1000px) {
 
   .footer-email input{
@@ -446,100 +470,74 @@ body{
   }
 }
 
-
 /* Footer Styles */
-.footer {
-  background-color: #000;
-  color: #fff;
-  padding: 20px 10px;
+
+footer{
+    padding-top: 60px;
+}
+.main-footer{
+    background-color: black;
+    color: white;
+    padding: 4% 3% 2% 4%;
+    font-weight: 500;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+}
+.footer-flex div{
+    margin-bottom: 10px;
+}
+.footer-email input{
+    background-color: black;
+    border: 1px solid white;
+    padding: 8px 5px;
+    border-radius: 3px;
+    text-align: center;
+}
+.footer-email input:focus{
+    outline: none;
+    background-color: black;
+    color: white;
+}
+.footer-email input:visited{
+    background-color: black;
+    color: white;
+}
+.footer-send button{
+    background-color: rgb(0, 154, 220);
+    border: none;
+    outline: none;
+    padding: 8px 71px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 3px;
+}
+.footer-send button a{
+    text-decoration: none;
+    color: white;
+}
+.footer-send button:hover{
+    background-color: rgb(0, 114, 162);
+    color: white;
+    outline: none;
+    border: none;
 }
 
-.footer-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  max-width: 1200px;
-  margin: auto;
+.bottom-navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 12px 0px 15px 0px;
 }
-
-.footer-section {
-  flex: 1 1 200px;
-  margin: 15px;
+.bottom-text{
+    padding-left: 5px;
 }
-
-.footer-section h3 {
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-
-.footer-section p, .footer-section ul {
-  font-size: 14px;
-  line-height: 1.6;
-}
-
-.footer-section ul {
-  list-style: none;
-  padding: 0;
-}
-
-.footer-section ul li a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.footer-section ul li a:hover {
-  text-decoration: underline;
-}
-
-.subscribe-form {
-  display: flex;
-  margin-top: 10px;
-}
-
-.subscribe-form input {
-  flex: 1;
-  padding: 10px;
-  border: none;
-  border-radius: 3px 0 0 3px;
-}
-
-.subscribe-form button {
-  padding: 10px;
-  background-color: #f00;
-  color: #fff;
-  border: none;
-  border-radius: 0 3px 3px 0;
-  cursor: pointer;
-}
-
-.subscribe-form button:hover {
-  background-color: #c00;
-}
-
-.app-buttons {
-  margin: 10px 0;
-}
-
-.app-icon {
-  width: 120px;
-  margin-right: 10px;
-}
-
-.social-icons a {
-  color: #fff;
-  margin-right: 10px;
-  font-size: 18px;
-  text-decoration: none;
-}
-
-.social-icons a:hover {
-  color: #f00;
-}
-
-.footer-bottom {
-  text-align: center;
-  margin-top: 20px;
-  font-size: 12px;
+.bottomLine{
+    border: 1px solid rgb(55, 55, 55);  
 }
 
 

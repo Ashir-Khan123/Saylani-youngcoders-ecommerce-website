@@ -1,0 +1,55 @@
+@media only screen and (max-width: 1200px){
+    .top-bar{
+        display: none;
+    }
+    .nav-search{
+        display: none;
+    }
+    .nav-search{
+        display: none;
+    }
+    .top-bar{
+        display: none;
+    }
+    .nav-search{
+        display: none;
+    }
+    .create-account{
+        padding-bottom: 100px;
+    }
+    .navbar button span{
+        display: none;
+    }
+    .navbar-toggler:focus{
+        border: none;
+    }
+    .navbar-collapse ul{
+        background-color: bisque;
+        text-align: center;
+        padding-right: 30%;
+    }
+    .footer-text-2 , .footer-text-3 ,.footer-text-4 , .footer-text-5{
+        margin-top: 30px;
+    }
+    .main-footer{
+        text-align: center;
+        padding-top: 30px;
+    }
+    .bottom-navbar{
+        font-size: 12px;
+    }
+    .text span{
+        font-size: 15px;
+        padding-right: 40px;
+    }
+    .red-btn-2{
+        font-size: 12px;
+        padding: 5px 20px;
+    }
+    .round-2 , .round-3{
+        padding-top: 30px;
+    }
+    .icons{
+        margin-left: 50px;
+    }
+}

@@ -6,6 +6,7 @@
     <title>About page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./about.css">
+    <link rel="stylesheet" href="./about-responsive.css">
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -137,20 +138,18 @@
             <p>Founder & Chairman</p>
             <div class="social-icons">
               <i class="fa-brands fa-instagram"></i>
-<i class="fa-brands fa-twitter"></i>
-<i class="fa-brands fa-linkedin"></i>
-
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-linkedin"></i>
             </div>
           </div>
           <div class="team-member">
-            <img src="./Images/image 51.png" alt="Emma Watson">
+            <img src="./Images/emma.png" alt="Emma Watson">
             <h3>Emma Watson</h3>
             <p>Managing Director</p>
             <div class="social-icons">
               <i class="fa-brands fa-instagram"></i>
-<i class="fa-brands fa-twitter"></i>
-<i class="fa-brands fa-linkedin"></i>
-
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-linkedin"></i>
             </div>
           </div>
           <div class="team-member">
@@ -165,86 +164,123 @@
           </div>
         </div>
       </section>
-      <div class="features">
-        <div class="feature">
-            <div class="feature-icon">🚚</div>
-            <div class="feature-title">FREE AND FAST DELIVERY</div>
-            <div class="feature-description">Free delivery for all orders over $140</div>
+      <section class="sec-8">
+        <div class="container">
+          <div class="rounds">
+              <div class="row">
+              <div class="col-lg-4">
+                <div class="round-1">
+                  <img src="./Images/home-free-deleivery.png" alt="">
+                  <h3>free and fast delivery</h3>
+                  <p>Free delivery for all orders over $140</p>
+                </div>
+              </div>
+              <div class="col-lg-4 round-2">
+                <div class="round-2">
+                  <img src="./Images/home service-2.png" alt="">
+                  <h3>24/7 customer service</h3>
+                  <p>Friendly 24/7 customer support</p>
+                </div>
+              </div>
+              <div class="col-lg-4 round-3">
+                <div class="round-3">
+                  <img src="./Images/home-gurantee.png" alt="">
+                  <h3>Money back gurantee</h3>
+                  <p>we return money within 30 days</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="feature">
-            <div class="feature-icon">📞</div>
-            <div class="feature-title">24/7 CUSTOMER SERVICE</div>
-            <div class="feature-description">Friendly 24/7 customer support</div>
-        </div>
-        <div class="feature">
-            <div class="feature-icon">✔️</div>
-            <div class="feature-title">MONEY BACK GUARANTEE</div>
-            <div class="feature-description">We return money within 30 days</div>
-        </div>
-    </div>
+      </section>
 
 
     <br><br><br>
     <!-- Footer -->
-    <footer class="footer">
-      <div class="footer-container">
-        <!-- Exclusive Section -->
-        <div class="footer-section">
-          <h3>Exclusive</h3>
-          <p>Subscribe</p>
-          <p>Get 10% off your first order</p>
-          <form class="subscribe-form">
-            <input type="email" placeholder="Enter your email" required>
-            <button type="submit">→</button>
-          </form>
-        </div>
-  
-        <!-- Support Section -->
-        <div class="footer-section">
-          <h3>Support</h3>
-          <p>111 Bijoy Sarani, Dhaka, Bangladesh</p>
-          <p>Email: exclusive@gmail.com</p>
-          <p>Phone: +88015-88888-9999</p>
-        </div>
-  
-        <!-- Account Section -->
-        <div class="footer-section">
-          <h3>Account</h3>
-          <ul>
-            <li><a href="#">My Account</a></li>
-            <li><a href="#">Login / Register</a></li>
-            <li><a href="#">Cart</a></li>
-            <li><a href="#">Wishlist</a></li>
-            <li><a href="#">Shop</a></li>
-          </ul>
-        </div>
-  
-        <!-- Quick Links and App Section -->
-        <div class="footer-section">
-          <h3>Quick Link</h3>
-          <ul>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms of Use</a></li>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-          <h3>Download App</h3>
-          <div class="app-buttons">
-            <img src="./Images/Frame 719.png" alt="Google Play" class="app-icon">
-            
+    <footer>
+        <div class="container-fluid">
+          <div class="main-footer">
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-3">
+                <div class="footer-flex footer-1">
+                  <div class="footer-text-1">Exclusive</div>
+                  <div>Subscribe</div>
+                  <div >Get 10% off your first order</div>
+                  <div class="footer-email">
+                    <input
+                      type="email"
+                      name="email"
+                      placeholder="Enter your email"
+                    />
+                  </div>
+                  <div class="footer-send">
+                    <button><a href="#">Submit</a></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-2">
+                <div class="footer-flex footer-2">
+                  <div class="footer-text-2">Support</div>
+                  <div>111 Bijoy sarani, Dhaka,<br />DH 1515, Bangladesh.</div>
+                  <div>exclusive@gmail.com</div>
+                  <div>+88015-88888-999</div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-2">
+                <div class="footer-flex footer-3">
+                  <div class="footer-text-3">Account</div>
+                  <div>My Account</div>
+                  <div>Login / Register</div>
+                  <div>Cart</div>
+                  <div>Whistle</div>
+                  <div>Shop</div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-2">
+                <div class="footer-flex footer-4">
+                  <div class="footer-text-4">Quick Link</div>
+                  <div>Privacy Policy</div>
+                  <div>Terms Of Use</div>
+                  <div>FAQ</div>
+                  <div>Contact</div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="footer-flex footer-5">
+                  <div class="footer-text-4">Download App</div>
+                  <div>Save $3 with App New User Only</div>
+                  <div><img src="./Images/Frame 719.jpg" alt="" /></div>
+                  <div class="icons">
+                    <div class="icon-1">
+                      <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+                    <div class="icon-2">
+                      <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div class="icon-3">
+                      <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="icon-4">
+                      <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="social-icons">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-          </div>
+          <div class="bottomLine"></div>
+          <nav>
+            <div class="bottom-navbar">
+              <div>
+                <i class="fa-regular fa-copyright"></i>
+              </div>
+              <div class="bottom-text">
+                <span><b>Copyright YoungCoders 2025</b>, All right reserved</span>
+              </div>
+            </div>
+          </nav>
         </div>
-      </div>
-      <div class="footer-bottom">
-        <p>© Copyright Ritmel 2022. All rights reserved</p>
-      </div>
-    </footer>
+      </footer>
   
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
   
