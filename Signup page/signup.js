@@ -7,10 +7,6 @@ let submit = () => {
     localStorage.setItem("email", email.value);
     localStorage.setItem("password", password.value);
   
-    //    document.getElementById("name").value = "";
-    //     document.getElementById("email").value = "";
-    //     document.getElementById("password").value = "";
-  
     if (name.value == "") {
       let messageName = document.getElementById("error_name");
       messageName.style.color = "red";
@@ -44,14 +40,13 @@ let submit = () => {
       document.getElementById("error1_password").innerHTML = "";
   
       Swal.fire({
-        // title: `Welcome to Website ${name}`,
         icon: "success",
         text: `Account Create successful! ${name.value}`,
       }).then(() => {
         name.value = "";
         email.value = "";
         password.value = "";
-        location.href = "../login.html";
+        location.href = "../Login page/login.html";
       });
     }
   };
@@ -97,6 +92,9 @@ let submit = () => {
       text: "Login successful!",
       icon: "success",
     }).then(() => {
-      location.href = "../homePage"; // Redirect after user clicks OK
-    });
+        name.value = "";
+        email.value = "";
+        password.value = "";
+        location.href = "../Home page/home-page.html";
+      });
   };
