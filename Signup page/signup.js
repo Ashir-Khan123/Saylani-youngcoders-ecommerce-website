@@ -54,7 +54,7 @@ let submit = () => {
   // login form functionality
   
   let loginForm = () => {
-    let loginName = document.getElementById("login_name");
+    let loginEmail = document.getElementById("login_email");
     let loginPassword = document.getElementById("login_password");
   
     let storedEmail = localStorage.getItem("email");
@@ -68,7 +68,7 @@ let submit = () => {
     let isValid = true; // Flag to track validation status
   
     // Check if email is incorrect
-    if (storedEmail !== loginName.value) {
+    if (storedEmail !== loginEmail.value) {
       let loginErrorEmail = document.getElementById("loginErrorEmail");
       loginErrorEmail.innerHTML = "Incorrect Email";
       loginErrorEmail.style.color = "red";
@@ -82,7 +82,7 @@ let submit = () => {
       loginErrorPassword.style.color = "red";
       isValid = false;
     }
-  
+    
     // Stop function if any validation failed
     if (!isValid) return;
   
@@ -92,9 +92,6 @@ let submit = () => {
       text: "Login successful!",
       icon: "success",
     }).then(() => {
-        name.value = "";
-        email.value = "";
-        password.value = "";
         location.href = "../Home page/home-page.html";
       });
   };
