@@ -114,21 +114,34 @@
                 <p>Enter your detail below</p>
               </div>
               <div class="name">
-                <input type="text" name="name" placeholder="Name" />
+                <input type="text" name="name" id="name" placeholder="Name" />
               </div>
+              <p id="error_name"></p>
               <div class="email">
                 <input
                   type="email"
                   name="email"
                   placeholder="Email or Phone Number"
+                  id="email"
                 />
               </div>
+              <p id="error1_email"></p>
               <div class="password">
-                <input type="password" name="password" placeholder="Password" />
+                <input
+                  type="password"
+                  id="password"
+                  name="password"
+                  placeholder="Password"
+                />
               </div>
+              <p id="error1_password"></p>
+              <p id="error2_password"></p>
+
               <div class="main-buttons">
                 <div class="main-btn1">
-                  <button><a href="../Login page/login.html">Create Account</a></button>
+                  <button onclick="submit()">
+                    <a href="#">Create Account</a>
+                  </button>
                 </div>
                 <div class="main-btn2">
                   <button><a href="#">Sign up with google</a></button>
@@ -139,7 +152,7 @@
                   <span>Already have an account?</span>
                 </div>
                 <div class="log-in">
-                  <a href="../Login page/login.html">Log in</a>
+                  <a href='../Login page/login.html'>Log in</a>
                 </div>
               </div>
             </div>

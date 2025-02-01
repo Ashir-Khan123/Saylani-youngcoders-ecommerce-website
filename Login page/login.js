@@ -13,8 +13,6 @@ let submit = () => {
   
     if (name.value == "") {
       let messageName = document.getElementById("error_name");
-      messageName.style.color = "red";
-      messageName.style.fontWeight = "600";
       messageName.innerHTML = "Name is required";
     } else {
       document.getElementById("error_name").innerHTML = "";
@@ -22,7 +20,6 @@ let submit = () => {
     if (email.value == "") {
       let emailMessae = document.getElementById("error1_email");
       emailMessae.style.color = "red";
-      emailMessae.style.fontWeight = "600";
       emailMessae.innerHTML = "Email is required";
     } else {
       document.getElementById("error1_email").innerHTML = "";
@@ -30,8 +27,6 @@ let submit = () => {
     if (password.value == "") {
       let passwordMessage = document.getElementById("error1_password");
       passwordMessage.style.color = "red";
-      passwordMessage.style.fontWeight = "700";
-      passwordMessage.style.fontSize = "13px";
       passwordMessage.innerHTML = "Password id Required";
     } else {
       document.getElementById("error1_password").innerHTML = "";
