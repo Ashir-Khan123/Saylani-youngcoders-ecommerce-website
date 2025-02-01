@@ -264,3 +264,17 @@ body{
     outline: none;
     border: none;
 }
+.bottom-navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 12px 0px 15px 0px;
+}
+.bottom-text{
+    padding-left: 5px;
+}
+.bottomLine{
+    border: 1px solid rgb(55, 55, 55);  
+}
